@@ -1,0 +1,86 @@
+.right-aligned {
+  font-family: "Bricolage Grotesque";
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+  /* padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px; */
+}
+.table-container {
+  margin-top: var(--table-margin-top, 50px);
+  margin-left: var(--table-margin-left, auto);
+  margin-right: var(--table-margin-right, auto);
+  width: var(--table-width, 50%);
+  align-self: flex-start;
+}
+.full-background {
+  /* background-color: #232423; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  /* justify-content: center; */
+}
+.card-container {
+  margin-top: var(--card-margin-top, 50px);
+  margin-left: var(--card-margin-left, auto);
+  margin-right: var(--card-margin-right, auto);
+  width: var(--card-width, 300px);
+  height: var(--card-height, 300px);
+  background-color: var(--card-bg-color, #566822);
+  box-shadow: var(--card-box-shadow, 0 4px 8px rgba(0, 0, 0, 0.1));
+}
+.button-container {
+  padding-top: 100px;
+}
+
+.card-content {
+  padding: var(--card-content-padding, 20px);
+  color: var(--card-content-color, #ffffff);
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.td-content {
+  font-family: "Bricolage Grotesque";
+  font-weight: 100;
+}
+.card {
+  width: 200px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  margin: 10px; /* Adjust the margin as needed */
+  padding: 10px; /* Adjust the padding as needed */
+}
+#input {
+  max-width: 190px;
+  font-weight: bold;
+  color: black;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.651);
+  border-radius: 50px;
+}
+#input:focus {
+  color: black;
+  font-weight: bold;
+  outline-color: rgb(0, 0, 0);
+  box-shadow: -3px -3px 25px rgb(0, 0, 0);
+  transition: 0.1s;
+  transition-property: box-shadow;
+}
+
+/*.tablehead{
+    background-color: #dda15e;
+    color: black;
+}
+.container2{
+    background-color: #dda15e;
+    
+} */

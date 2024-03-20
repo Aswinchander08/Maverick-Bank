@@ -1,0 +1,9 @@
+.button-container {
+  padding-bottom: 100px;
+}
+.full-background1 {
+  width: 100%;
+  height: 100vh;
+
+  /* justify-content: center; */
+}
